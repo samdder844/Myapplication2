@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#236024"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="316dp"
+        android:layout_height="47dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="?attr/homeAsUpIndicator"
+        android:editable="true"
+        android:ems="1"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#845D5E6F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="282dp"
+        tools:text="email" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="316"
+        android:layout_height="47"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="password"
+        android:textColor="#845D5E6F"
+        android:textColorHighlight="#585151"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="214dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:padding="10dp"
+        android:text="enter code"
+        android:textColor="#84717281"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="CAPTCHA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#6B6464"
+        android:textColorHighlight="#00F4F4F4"
+        android:textColorHint="#00F0EDED"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="171dp"
+        android:layout_height="34dp"
+        android:bufferType="editable"
+        android:text="rememder password"
+        android:textColor="#84232329"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
